@@ -1,0 +1,8 @@
+{
+  "name": "runawaytrain",
+  "version": "0.0.1-alpha.0",
+  "main": "index.js",
+  "repository": "git@github.com:abraaobuenotype/runawaytrain.git",
+  "author": "Abraão Bueno <abraao.as3@gmail.com>",
+  "license": "MIT"
+}
