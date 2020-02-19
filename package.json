@@ -6,19 +6,16 @@
   "author": "Abraão Bueno <abraao.as3@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
-    "@babel/preset-typescript": "^7.8.3",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "@rollup/plugin-typescript": "^3.0.0",
     "@types/node": "^13.7.0",
+    "cross-env": "^7.0.0",
     "rollup": "^1.31.0",
-    "rollup-plugin-babel": "^4.3.3",
     "tslib": "^1.10.0",
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "dev": "rollup -c"
+    "dev": "cross-env NODE_ENV=development rollup -c -w"
   }
 }
